@@ -293,9 +293,7 @@ tr.even {
 pre {
 	margin: 0 0 20px 0;
 	padding: 20px;
-	background: #2a2a2a;
 	line-height: 22px;
-	border: 1px solid #3a3a3a;
 	font-family: Courier, serif;
 	overflow-x: scroll;
 	overflow-y: visible;
