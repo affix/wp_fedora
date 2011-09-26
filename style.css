@@ -28,14 +28,17 @@ Tags: white, two-colum, fedora, linux, theme
 /*	##################################
    	GENERAL
 	################################## */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Lekton);
+
 body {
 	margin: 0px;
 	padding: 0px;
 	background: #ffffff url(img/bg-header.png) repeat-x left top;
-
 	color: #585858;
-	font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
-	font-size: 11px;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 12px;
 }
 
 a {
@@ -294,7 +297,7 @@ pre {
 	margin: 0 0 20px 0;
 	padding: 20px;
 	line-height: 22px;
-	font-family: Courier, serif;
+	font-family: "Lekton", serif;
 	overflow-x: scroll;
 	overflow-y: visible;
 }
