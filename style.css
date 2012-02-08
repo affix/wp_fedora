@@ -35,11 +35,6 @@ Tags: white, two-colum, fedora, linux, theme
 	font-weight: normal;
 }
 @font-face {
-	font-family: Cantarell;
-	src: local("Cantarell"), url("Cantarell-Bold.otf");
-	font-weight: bold;
-}
-@font-face {
 	font-family: Comfortaa-web;
 	src: local("Comfortaa"), url("Comfortaa_thin-webfont.woff");
 }
