@@ -29,15 +29,27 @@ Tags: white, two-colum, fedora, linux, theme
    	GENERAL
 	################################## */
 
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
-@import url(http://fonts.googleapis.com/css?family=Lekton);
+@font-face {
+	font-family: Cantarell;
+	src: local("Cantarell"), url("Cantarell-Regular.otf");
+	font-weight: normal;
+}
+@font-face {
+	font-family: Cantarell;
+	src: local("Cantarell"), url("Cantarell-Bold.otf");
+	font-weight: bold;
+}
+@font-face {
+	font-family: Comfortaa-web;
+	src: local("Comfortaa"), url("Comfortaa_thin-webfont.woff");
+}
 
 body {
 	margin: 0px;
 	padding: 0px;
 	background: #ffffff url(img/bg-header.png) repeat-x left top;
 	color: #585858;
-	font-family: "Ubuntu", sans-serif;
+	font-family: Cantarell, sans-serif;
 	font-size: 12px;
 }
 
@@ -123,6 +135,7 @@ h3.post-title {
 	padding: 0px;
 	color: #006990;
 	font-size: 18px;
+	font-family: Comfortaa-web, sans-serif;	
 }
 
 h3.post-title a {
