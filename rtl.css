@@ -1,0 +1,93 @@
+/*
+
+Copyright (C) 2012 Elad Alfassa <elad@fedoraproject.org>
+    This file is part of wp_fedora.
+
+    wp_fedora is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 2 of the License, or
+    (at your option) any later version.
+
+    wp_fedora is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+
+Theme Name: wp_fedora
+
+This file adds Right to Left langagues support to wp_fedora
+
+*/
+
+/* Font stuff */
+body {
+	direction: rtl;
+	text-align: right;
+	font-family: sans-serif; /* Comfortaa and Cantarell doesn't support any RTL langauge */
+}
+h3.post-title {
+	font-family: sans-serif; /* Comfortaa and Cantarell doesn't support any RTL langauge */
+}
+
+/* Sidebar Stuff */
+.box-right li {
+	margin: 0px;
+	padding: 5px 10px 5px 0;
+	background: url(img/bg-list-item-sidebar-blue-rtl.gif) no-repeat center right;
+}
+
+#searchform #search {
+	float: right;
+}
+#searchform #search-submit {
+	float: left;
+}
+
+
+/* Menu stuff */
+.sf-menu li {
+	float:			right;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	right:			0;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	right:			140px; /* match ul width */
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	right:			140px; /* match ul width */
+}
+.sf-menu {
+	bottom: 0px;
+	right: 0px;
+}
+
+/* Post information stuff */
+
+.meta-date {
+	padding: 0 15px 0 10px;
+	background-position: center right;
+}
+
+.meta-categories {
+	padding: 0 15px 0 10px;
+	background-position: center right;
+}
+
+.meta-comments {
+	padding: 0 15px 0 10px;
+	background-position: center right;
+}
+
+/* Header stuff */
+#rss {
+	left: 0;
+	text-align: left;
+	right: inherit;
+}
